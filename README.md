@@ -15,6 +15,7 @@ Still in developmeant.
 # Install
 
 ```
+apt install apache2-dev
 apxs -c -i -a apacheniffer_module.c
 systemctl restart apache2
 ```
